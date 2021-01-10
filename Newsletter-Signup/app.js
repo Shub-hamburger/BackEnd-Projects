@@ -33,10 +33,10 @@ app.post("/", function(req, res){
 
   var jsonData = JSON.stringify(data);
 
-  const url = "https://us7.api.mailchimp.com/3.0/lists/f1ce3adfc6";
+  const url = "https://us_.api.mailchimp.com/3.0/lists/xxxxxxx";
   const options = {
     method: "POST",
-    auth: "shubham1:91c57134ed6ddc56b9c8dbefc3be8564-us7"
+    auth: "PUT_YOUR_AUTH"
   };
 
                     // "request" because we want to POST data to external resource.
